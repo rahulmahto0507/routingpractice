@@ -1,0 +1,55 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app-container {
+  width: 80%;
+  border: 3px solid #551e53;
+  border-radius: 20px;
+  height: 80vh;
+}
+.nav-header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wave-logo {
+  height: 26px;
+  width: 26px;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 34px;
+  }
+}
